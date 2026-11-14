@@ -1,5 +1,7 @@
 # Analisis Kualitas Udara Beijing
 
+Dashboard: https://sub-analisis-kualitas-udara-beijing.streamlit.app/
+
 ## Deskripsi Proyek
 
 Proyek ini merupakan analisis data kualitas udara di Beijing, China, menggunakan dataset dari 12 stasiun pemantauan selama periode Maret 2013 hingga Februari 2017.
@@ -54,7 +56,7 @@ submission/
 ### 1. Clone Repository
 
 ```bash
-git clone <URL_REPOSITORY>
+git clone https://github.com/Puturahmaa7/submission.git
 cd fundamental-analisis-data
 ```
 
