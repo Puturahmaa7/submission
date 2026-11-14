@@ -21,7 +21,7 @@ Dashboard menyediakan beberapa fitur analisis, antara lain:
 ## Struktur Direktori
 
 ```
-fundamental-analisis-data/
+submission/
 │
 ├── dashboard/
 │   ├── dashboard.py
