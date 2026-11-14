@@ -62,9 +62,11 @@ PM25_COLORS = {
 }
 
 
-@st.cache_data
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR / "main_data.csv"
+
 def load_data():
-    df = pd.read_csv("main_data.csv")
+    df = pd.read_csv(DATA_PATH)
     df["datetime"] = pd.to_datetime(df["datetime"])
     return df
 
